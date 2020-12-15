@@ -1,0 +1,9 @@
+"0",""
+"0","bb_candy_clean %>%"
+"0","  filter(gender == ""male"") %>%"
+"0","  group_by(item_gifted) %>%"
+"0","  summarise(rating_male = n()) %>%"
+"0","  arrange(desc(rating_male)) %>%"
+"0","  slice(1)"
+"2","`summarise()` ungrouping output (override with `.groups` argument)
+"

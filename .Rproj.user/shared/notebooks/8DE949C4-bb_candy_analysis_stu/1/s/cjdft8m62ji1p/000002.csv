@@ -1,0 +1,9 @@
+"0",""
+"0","bb_candy_clean %>%"
+"0","  filter(date >= ""2015-01-01"" & date <= ""2015-12-31"") %>%"
+"0","  group_by(item_gifted) %>%"
+"0","  summarise(rating_score_2015 = n()) %>%"
+"0","  arrange(desc(rating_score_2015)) %>%"
+"0","  slice(1)"
+"2","`summarise()` ungrouping output (override with `.groups` argument)
+"

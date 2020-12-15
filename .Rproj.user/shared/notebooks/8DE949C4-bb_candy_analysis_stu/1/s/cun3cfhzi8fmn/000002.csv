@@ -1,0 +1,5 @@
+"0",""
+"0","bb_candy_clean %>%"
+"0","  filter(trick_or_treat == FALSE) %>%"
+"0","  drop_na() %>%"
+"0","  summarise(average_age_who_do_not_trick_or_treat = round(mean(age)))"

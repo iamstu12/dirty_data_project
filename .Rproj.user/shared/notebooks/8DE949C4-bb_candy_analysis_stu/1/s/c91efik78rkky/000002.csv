@@ -1,0 +1,9 @@
+"0",""
+"0","bb_candy_clean %>%"
+"0","  filter(reaction == ""joy"") %>%"
+"0","  group_by(item_gifted) %>%"
+"0","  summarise(joy_count = n()) %>%"
+"0","  arrange(desc(joy_count)) %>%"
+"0","  slice(1)"
+"2","`summarise()` ungrouping output (override with `.groups` argument)
+"

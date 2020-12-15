@@ -1,0 +1,9 @@
+"0",""
+"0","bb_candy_clean %>%"
+"0","  filter(country == ""central america"") %>%"
+"0","  group_by(item_gifted) %>%"
+"0","  summarise(top_candy_central_america = n()) %>%"
+"0","  arrange(desc(top_candy_central_america)) %>%"
+"0","  slice(1)"
+"2","`summarise()` ungrouping output (override with `.groups` argument)
+"

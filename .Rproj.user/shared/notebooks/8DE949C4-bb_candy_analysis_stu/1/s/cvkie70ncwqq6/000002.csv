@@ -1,0 +1,7 @@
+"0",""
+"0","bb_candy_clean %>%"
+"0","  mutate(reaction_code = recode("
+"0","    reaction, ""despair"" = -1,"
+"0","              ""joy"" = 1,"
+"0","              ""meh"" = 0"
+"0","    ))"
